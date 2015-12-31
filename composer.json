@@ -1,0 +1,21 @@
+{
+    "name": "olivemedia/ciunittest",
+    "description": "package for unit and selenium testing olivemedia",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rabin karmacharya",
+            "email": "development@olivemedia.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "mustangostang/spyc": "0.5.*"
+    },
+    "autoload": {
+        "psr-4":  {
+            "AcademyHQ\\CIUnit\\": "src/"
+        }
+    }
+}
